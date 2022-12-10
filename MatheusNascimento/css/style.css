@@ -11,6 +11,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+.site {
+  display: inline-block;
+  background: var(--main-color);
+  color: #fff;
+  padding: 0.4rem 1.0rem;
+  border-radius: 0.5rem;
+}
+
+.site:hover {
+  background: var(--hover);
+}
+
 :root {
   --main-color: #033a80;
   --bg-color: #fff;
